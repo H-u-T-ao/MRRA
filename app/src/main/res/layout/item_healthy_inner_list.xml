@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_gray_ripple">
+
+    <com.mrra.weight.ViewPager2Container
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.mrra.weight.ViewPager2TouchListener
+            android:id="@+id/vl_info_touch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/vp_info_banner"
+                android:layout_width="match_parent"
+                android:layout_height="240dp" />
+
+        </com.mrra.weight.ViewPager2TouchListener>
+
+    </com.mrra.weight.ViewPager2Container>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_info_image"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/iv_info_image"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:elevation="8dp"
+            android:scaleType="fitXY"
+            android:src="?attr/colorPrimary" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@id/cv_info_image"
+        android:maxLines="2"
+        android:textColor="?attr/titleTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_info_update_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_info_author"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@id/cv_info_image"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="?attr/itemTextColor"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_info_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cv_info_image"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_toEndOf="@id/cv_info_image"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="?attr/itemTextColor"
+        android:textSize="12sp" />
+
+</RelativeLayout>

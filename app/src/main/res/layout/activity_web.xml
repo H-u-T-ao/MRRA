@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.web.WebActivity">
+
+    <TextView
+        android:id="@+id/tv_web_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorBackgroundFloating" />
+
+    <com.mrra.weight.TextViewMarqueeForever
+        android:id="@+id/tv_web_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_web_status_bar"
+        android:background="@drawable/bg_alpha_effect_theme_270"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="16dp"
+        android:singleLine="true"
+        android:text="@string/web_loading"
+        android:textColor="?attr/itemTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <WebView
+        android:id="@+id/wv_web_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_web_title" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_web_back"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="24dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="?attr/colorPrimary"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/ic_back" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/pb_web_pb"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="28dp"
+        android:indeterminateTint="?attr/colorPrimary"
+        android:max="100" />
+
+</RelativeLayout>

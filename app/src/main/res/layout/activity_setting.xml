@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.setting.SettingActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp"
+        android:paddingStart="24dp"
+        android:text="@string/settings_lang"
+        android:textColor="?attr/titleTextColor"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.mrra.weight.CircleView
+            android:id="@+id/cv_setting_en"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false"
+            app:text="@string/settings_en"
+            app:textColor="?attr/titleTextColor"
+            app:textSize="24sp" />
+
+        <com.mrra.weight.CircleView
+            android:id="@+id/cv_setting_cn"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:textAllCaps="false"
+            app:text="@string/settings_cn"
+            app:textColor="?attr/titleTextColor"
+            app:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_setting_tip_en"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cv_setting_cn"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/settings_tip_en"
+            android:textColor="?attr/itemTextColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_setting_tip_zh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_setting_tip_en"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/settings_tip_zh"
+            android:textColor="?attr/itemTextColor"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_setting_restart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_setting_tip_zh"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/settings_click_to_restart"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

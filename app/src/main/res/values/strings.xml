@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">MRRA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="empty"> </string>
+    <string name="unnamed">unnamed</string>
+
+    <string name="health">Healthy</string>
+    <string name="mrra">MRRA</string>
+    <string name="me">Me</string>
+
+    <string name="healthy_item_0">News</string>
+    <string name="healthy_item_1">Course</string>
+    <string name="healthy_item_2">Fitness</string>
+    <string name="healthy_item_3">Specialist</string>
+    <string name="healthy_item_4">Robotic Arm</string>
+    <string name="healthy_item_5">MRRA</string>
+    <string name="healthy_banner_0">Can you keep your job or career when you have arthritis?</string>
+    <string name="healthy_banner_1">Exercising to Promote Healthy Bones and Joints.</string>
+    <string name="healthy_banner_2">Living Well with Arthritis.</string>
+    <string name="healthy_banner_3">Common Symptoms of Elbow Bursitis.</string>
+    <string name="healthy_news_title_0">How to Strap an Elbow</string>
+    <string name="healthy_news_url_0">https://www.wikihow.com/Strap-an-Elbow</string>
+    <string name="healthy_news_update_0">02-04-2022</string>
+    <string name="healthy_news_from_0">Jonas DeMuro, MD</string>
+    <string name="healthy_news_title_1">Shoulders pain over and over, what\'s the problem?</string>
+    <string name="healthy_news_url_1">https://www.kfyx.cn/thread-83256-1-1.html</string>
+    <string name="healthy_news_update_1">01-19-2022</string>
+    <string name="healthy_news_from_1">website of medical rehabilitation</string>
+    <string name="healthy_news_title_2">How to Keep Your Bones and Joints Healthy</string>
+    <string name="healthy_news_url_2">https://www.wikihow.com/Keep-Your-Bones-and-Joints-Healthy</string>
+    <string name="healthy_news_update_2">05-19-2021</string>
+    <string name="healthy_news_from_2">Karen Litzy, PT, DPT</string>
+    <string name="healthy_news_title_3">What Causes Pain in Both Elbows</string>
+    <string name="healthy_news_url_3">https://www.verywellhealth.com/pain-in-both-elbows-5114457</string>
+    <string name="healthy_news_update_3">04-28-2021</string>
+    <string name="healthy_news_from_3">Laken Brooks</string>
+    <string name="healthy_news_title_4">Causes of Elbow Pain and Treatment Options</string>
+    <string name="healthy_news_url_4">https://www.verywellhealth.com/elbow-pain-common-injuries-and-causes-of-discomfort-2549348</string>
+    <string name="healthy_news_update_4">01-09-2022</string>
+    <string name="healthy_news_from_4">Jonathan Cluett, MD</string>
+
+    <string name="mrra_control">Control C.</string>
+    <string name="mrra_introduction">Product Introduction</string>
+    <string name="mrra_contact_us">Contact Us</string>
+    <string name="mrra_control_bluetooth">Bluetooth</string>
+    <string name="mrra_control_click_to_connect">Click hear to connect</string>
+    <string name="mrra_control_mac_address">MAC Address</string>
+    <string name="mrra_control_device_name">Device Name</string>
+    <string name="mrra_control_connect_status">Status</string>
+    <string name="mrra_control_mode">Mode</string>
+    <string name="mrra_control_not_connected">Not Connected</string>
+    <string name="mrra_control_try">Try Connecting</string>
+    <string name="mrra_control_error">Error</string>
+    <string name="mrra_control_angle_0_text">Angles of elbow joints</string>
+    <string name="mrra_control_angle_1_text">Angles of shoulder flexion and extension</string>
+    <string name="mrra_control_angle_2_text">Angles of shoulder joint horizontal abduction and adduction</string>
+    <string name="mrra_control_mode_initiative">Initiative</string>
+    <string name="mrra_control_mode_passive">Passive</string>
+    <string name="mrra_control_mode_memory">Memory</string>
+    <string name="mrra_control_mode_stop">Stop</string>
+    <string name="mrra_connect_status_success">Success</string>
+    <string name="mrra_control_init_mode_select">Selected</string>
+    <string name="mrra_control_init_mode_select_first">Please Selected Mode First</string>
+    <string name="mrra_control_mode_send">Send</string>
+    <string name="mrra_introduction_tip">Click hear to view the video</string>
+    <string name="mrra_introduction_title_0">Free</string>
+    <string name="mrra_introduction_title_1">Realtime</string>
+    <string name="mrra_introduction_title_2">Light</string>
+    <string name="mrra_introduction_title_3">Comfortable</string>
+    <string name="mrra_introduction_0">The robotic arm stores three training modes.People choose one according to the needs . It also provided customized training programs. Users can select training mode, view training records and training reports through the APP.</string>
+    <string name="mrra_introduction_1">Paramedics monitored the training data of multiple patients remotely in real time.</string>
+    <string name="mrra_introduction_2">Unlike the heavy, bulky traditional mechanical arm, we choose carbon fiber, ABS and other materials to achieve lightweight and nice strength. In addition, the material touched with the human body feels comfortable.</string>
+    <string name="mrra_introduction_3">We use sliding mode impedance control/ based on improved reaching law, to achieve fast and stable trajectory. Structure design is more ergonomic.</string>
+    <string name="mrra_contact_text">MRRA team was founded in Guangdong University of Technology.\nOur team comes from mechanical and electrical, computer, materials and energy, art and design, management, foreign languages institutes. There are 11 students with different professional knowledge to develop this program together, including C, C++, OpenCV developers, and the mechanical structure design and embedded personnel. We are professional in various fields.\n\nContact us: GUANGDONG University of Technology MRRA team\nProject Leader: Dong Eryi\nContact: 18177413701\nAddress: No. 100, Huanxi Road, Guangzhou University, Xiaoguwei Street, Panyu District, Guangzhou city, Guangdong Province</string>
+
+    <string name="me_settings">Settings</string>
+    <string name="me_user">MRRA User</string>
+    <string name="settings_lang">language</string>
+    <string name="settings_en">English</string>
+    <string name="settings_cn">简体中文</string>
+    <string name="settings_tip_en">Restart the app to apply the language settings</string>
+    <string name="settings_tip_zh">重启应用以应用语言设置</string>
+    <string name="settings_click_to_restart">Restart \ 重启</string>
+    <string name="setting_change_language">Change the language to English?</string>
+    <string name="setting_change_language_ok">OK</string>
+    <string name="setting_change_language_cancel">Cancel</string>
+
+    <string name="web_loading">Loading...</string>
+
+</resources>

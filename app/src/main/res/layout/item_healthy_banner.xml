@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray_ripple">
+
+    <ImageView
+        android:id="@+id/iv_banner_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="?attr/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_banner_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_alpha_effect_90"
+        android:maxLines="2"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="16dp"
+        android:text="MRRA 医疗机械臂"
+        android:textColor="?attr/titleTextColor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

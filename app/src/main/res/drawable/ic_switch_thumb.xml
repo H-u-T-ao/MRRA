@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- 滑动块的宽高 -->
+    <size
+        android:width="24dp"
+        android:height="24dp" />
+    <solid android:color="@color/white" />
+    <!-- 透明的描边-->
+    <stroke
+        android:width="2dp"
+        android:color="@color/white_transparent_0" />
+</shape>

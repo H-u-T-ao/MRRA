@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_gray_ripple"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_connect_list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:maxLines="1"
+        android:text="@string/mrra_control_device_name"
+        android:textColor="?attr/titleTextColor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_connect_list_mac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="12dp"
+        android:maxLines="1"
+        android:text="@string/mrra_control_mac_address"
+        android:textColor="?attr/itemTextColor"
+        android:textSize="12sp" />
+
+</LinearLayout>
